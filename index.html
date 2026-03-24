@@ -1,0 +1,199 @@
+<div id="q4wrap" style="font-family: Arial, sans-serif; background-color: #0d1b2a; border-radius: 12px; padding: 40px 44px 48px; max-width: 860px; margin: 0 auto; color: #e8e8e8;">
+
+  <!-- Header -->
+  <div style="display:flex; align-items:center; gap:12px; margin-bottom:20px;">
+    <div style="background-color:#8b2fc9; border-radius:8px; padding:8px 16px;">
+      <span style="font-size:12px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#ffffff;">Unidad 4</span>
+    </div>
+    <span style="font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#4a6680;">Quiz de Autoaprendizaje · Preguntas &amp; Respuestas</span>
+  </div>
+
+  <h2 style="font-family: Georgia, serif; font-size:32px; font-weight:700; color:#f0f0f0; margin:0 0 8px 0; line-height:1.2;">Conducción Defensiva <em style="color:#e88c30; font-style:italic;">y Seguridad Activa</em></h2>
+  <p style="font-size:14px; color:#7a9ab5; margin:0 0 8px 0;">6 preguntas · Escribe tu respuesta · Compara con la respuesta correcta</p>
+  <div style="background-color:#1a1230; border:1px solid #3d1f6e; border-radius:8px; padding:12px 16px; margin-bottom:28px;">
+    <p style="font-size:13px; color:#b09ad8; margin:0;">💡 <strong style="color:#c8b8f0;">Instrucciones:</strong> Escribe tu respuesta en el campo de texto, luego presiona <strong style="color:#c8b8f0;">"Ver respuesta correcta"</strong> para comparar y evalúate tú mismo.</p>
+  </div>
+
+  <!-- Progress bar -->
+  <div style="background-color:#111f30; border-radius:50px; height:6px; margin-bottom:32px; overflow:hidden;">
+    <div id="q4progress" style="background-color:#8b2fc9; height:6px; width:0%; border-radius:50px; transition:width 0.4s ease;"></div>
+  </div>
+
+  <!-- ===== PREGUNTA 1 ===== -->
+  <div style="margin-bottom:28px;">
+    <div style="background-color:#111f30; border:1px solid #1e3452; border-radius:10px; padding:24px 28px;">
+      <p style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#a06de0; margin:0 0 10px 0;">Pregunta 1 de 6</p>
+      <p style="font-size:16px; color:#f0f0f0; margin:0 0 16px 0; line-height:1.6;">¿Cuál es la distancia de seguridad mínima que establece la normativa ecuatoriana para vehículos de transporte pesado (más de 3,5 toneladas) respecto al vehículo que les precede?</p>
+      <textarea id="q4a1" placeholder="Escribe tu respuesta aquí..." style="width:100%; background-color:#0d1b2a; border:1px solid #2c4260; border-radius:8px; padding:12px 14px; color:#e8e8e8; font-size:14px; font-family:Arial,sans-serif; line-height:1.6; resize:vertical; min-height:80px; box-sizing:border-box;"></textarea>
+      <div style="margin-top:12px; display:flex; gap:10px; align-items:center;">
+        <button onclick="q4reveal(1)" id="q4btn1" style="background-color:#8b2fc9; border:none; border-radius:8px; padding:10px 22px; color:#fff; font-size:13px; font-weight:700; cursor:pointer;">Ver respuesta correcta</button>
+        <div id="q4self1" style="display:none; gap:8px;">
+          <span style="font-size:12px; color:#7a9ab5;">¿Acertaste?</span>
+          <button onclick="q4score(1,true)" style="background-color:#0d3322; border:1px solid #27ae60; border-radius:6px; padding:6px 14px; color:#2ecc71; font-size:12px; font-weight:700; cursor:pointer;">✓ Sí</button>
+          <button onclick="q4score(1,false)" style="background-color:#3a1010; border:1px solid #c0392b; border-radius:6px; padding:6px 14px; color:#e74c3c; font-size:12px; font-weight:700; cursor:pointer;">✗ No</button>
+        </div>
+      </div>
+      <div id="q4r1" style="display:none; margin-top:16px; background-color:#0f1e2e; border-left:4px solid #8b2fc9; border-radius:0 8px 8px 0; padding:14px 18px;">
+        <p style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#a06de0; margin:0 0 6px 0;">✅ Respuesta correcta</p>
+        <p style="font-size:14px; color:#c8b8f0; margin:0; line-height:1.7;">La normativa ecuatoriana establece una distancia mínima de <strong style="color:#f0f0f0;">50 metros</strong> con el vehículo precedente para vehículos de más de 3,5 toneladas. Como referencia práctica se aplica la regla de 0,5 metros por cada km/h de velocidad: a 100 km/h = 50 m mínimo, a 80 km/h = 40 m mínimo, a 60 km/h = 30 m mínimo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PREGUNTA 2 ===== -->
+  <div style="margin-bottom:28px;">
+    <div style="background-color:#111f30; border:1px solid #1e3452; border-radius:10px; padding:24px 28px;">
+      <p style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#a06de0; margin:0 0 10px 0;">Pregunta 2 de 6</p>
+      <p style="font-size:16px; color:#f0f0f0; margin:0 0 16px 0; line-height:1.6;">Explica la <strong style="color:#e88c30;">Regla de los 4 segundos</strong>: ¿en qué consiste y cómo se aplica en la práctica para verificar la distancia de seguridad?</p>
+      <textarea id="q4a2" placeholder="Escribe tu respuesta aquí..." style="width:100%; background-color:#0d1b2a; border:1px solid #2c4260; border-radius:8px; padding:12px 14px; color:#e8e8e8; font-size:14px; font-family:Arial,sans-serif; line-height:1.6; resize:vertical; min-height:80px; box-sizing:border-box;"></textarea>
+      <div style="margin-top:12px; display:flex; gap:10px; align-items:center;">
+        <button onclick="q4reveal(2)" id="q4btn2" style="background-color:#8b2fc9; border:none; border-radius:8px; padding:10px 22px; color:#fff; font-size:13px; font-weight:700; cursor:pointer;">Ver respuesta correcta</button>
+        <div id="q4self2" style="display:none; gap:8px;">
+          <span style="font-size:12px; color:#7a9ab5;">¿Acertaste?</span>
+          <button onclick="q4score(2,true)" style="background-color:#0d3322; border:1px solid #27ae60; border-radius:6px; padding:6px 14px; color:#2ecc71; font-size:12px; font-weight:700; cursor:pointer;">✓ Sí</button>
+          <button onclick="q4score(2,false)" style="background-color:#3a1010; border:1px solid #c0392b; border-radius:6px; padding:6px 14px; color:#e74c3c; font-size:12px; font-weight:700; cursor:pointer;">✗ No</button>
+        </div>
+      </div>
+      <div id="q4r2" style="display:none; margin-top:16px; background-color:#0f1e2e; border-left:4px solid #8b2fc9; border-radius:0 8px 8px 0; padding:14px 18px;">
+        <p style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#a06de0; margin:0 0 6px 0;">✅ Respuesta correcta</p>
+        <p style="font-size:14px; color:#c8b8f0; margin:0; line-height:1.7;">Se elige un objeto fijo en la vía (poste, árbol, señal). Cuando el vehículo de adelante lo pasa, se cuenta: <strong style="color:#f0f0f0;">1001, 1002, 1003, 1004</strong>. Si el propio vehículo pasa ese punto antes de terminar el conteo, la distancia es insuficiente. Para vehículos pesados con carga máxima se recomienda ampliar a <strong style="color:#f0f0f0;">5 o 6 segundos</strong>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PREGUNTA 3 ===== -->
+  <div style="margin-bottom:28px;">
+    <div style="background-color:#111f30; border:1px solid #1e3452; border-radius:10px; padding:24px 28px;">
+      <p style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#a06de0; margin:0 0 10px 0;">Pregunta 3 de 6</p>
+      <p style="font-size:16px; color:#f0f0f0; margin:0 0 16px 0; line-height:1.6;">¿Qué son los <strong style="color:#e88c30;">puntos ciegos</strong> en un vehículo pesado? Menciona al menos <strong style="color:#f0f0f0;">tres zonas</strong> donde se ubican los más peligrosos.</p>
+      <textarea id="q4a3" placeholder="Escribe tu respuesta aquí..." style="width:100%; background-color:#0d1b2a; border:1px solid #2c4260; border-radius:8px; padding:12px 14px; color:#e8e8e8; font-size:14px; font-family:Arial,sans-serif; line-height:1.6; resize:vertical; min-height:80px; box-sizing:border-box;"></textarea>
+      <div style="margin-top:12px; display:flex; gap:10px; align-items:center;">
+        <button onclick="q4reveal(3)" id="q4btn3" style="background-color:#8b2fc9; border:none; border-radius:8px; padding:10px 22px; color:#fff; font-size:13px; font-weight:700; cursor:pointer;">Ver respuesta correcta</button>
+        <div id="q4self3" style="display:none; gap:8px;">
+          <span style="font-size:12px; color:#7a9ab5;">¿Acertaste?</span>
+          <button onclick="q4score(3,true)" style="background-color:#0d3322; border:1px solid #27ae60; border-radius:6px; padding:6px 14px; color:#2ecc71; font-size:12px; font-weight:700; cursor:pointer;">✓ Sí</button>
+          <button onclick="q4score(3,false)" style="background-color:#3a1010; border:1px solid #c0392b; border-radius:6px; padding:6px 14px; color:#e74c3c; font-size:12px; font-weight:700; cursor:pointer;">✗ No</button>
+        </div>
+      </div>
+      <div id="q4r3" style="display:none; margin-top:16px; background-color:#0f1e2e; border-left:4px solid #8b2fc9; border-radius:0 8px 8px 0; padding:14px 18px;">
+        <p style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#a06de0; margin:0 0 6px 0;">✅ Respuesta correcta</p>
+        <p style="font-size:14px; color:#c8b8f0; margin:0; line-height:1.7;">Los puntos ciegos son <strong style="color:#f0f0f0;">zonas de visión limitada que los espejos no cubren completamente</strong>. Los más peligrosos son: (1) <strong style="color:#f0f0f0;">zona posterior directa</strong> — detrás de la carga; (2) <strong style="color:#f0f0f0;">costados a la altura de las ruedas traseras</strong>; (3) <strong style="color:#f0f0f0;">frente inmediato</strong> del vehículo en maniobras a baja velocidad. El conductor debe moverse físicamente para verificar estas zonas antes de maniobrar.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PREGUNTA 4 ===== -->
+  <div style="margin-bottom:28px;">
+    <div style="background-color:#111f30; border:1px solid #1e3452; border-radius:10px; padding:24px 28px;">
+      <p style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#a06de0; margin:0 0 10px 0;">Pregunta 4 de 6</p>
+      <div style="background-color:#0a1520; border-radius:8px; padding:12px 16px; margin-bottom:14px; border-left:3px solid #e88c30;">
+        <p style="font-size:13px; color:#b0bec5; margin:0; line-height:1.6;"><strong style="color:#e88c30;">Caso práctico:</strong> Vas a 90 km/h en carretera con carga completa. Un automóvil frena bruscamente a 50 metros delante de ti. ¿Puedes detenerte a tiempo? ¿Qué debiste hacer preventivamente?</p>
+      </div>
+      <textarea id="q4a4" placeholder="Escribe tu análisis aquí..." style="width:100%; background-color:#0d1b2a; border:1px solid #2c4260; border-radius:8px; padding:12px 14px; color:#e8e8e8; font-size:14px; font-family:Arial,sans-serif; line-height:1.6; resize:vertical; min-height:90px; box-sizing:border-box;"></textarea>
+      <div style="margin-top:12px; display:flex; gap:10px; align-items:center;">
+        <button onclick="q4reveal(4)" id="q4btn4" style="background-color:#8b2fc9; border:none; border-radius:8px; padding:10px 22px; color:#fff; font-size:13px; font-weight:700; cursor:pointer;">Ver respuesta correcta</button>
+        <div id="q4self4" style="display:none; gap:8px;">
+          <span style="font-size:12px; color:#7a9ab5;">¿Acertaste?</span>
+          <button onclick="q4score(4,true)" style="background-color:#0d3322; border:1px solid #27ae60; border-radius:6px; padding:6px 14px; color:#2ecc71; font-size:12px; font-weight:700; cursor:pointer;">✓ Sí</button>
+          <button onclick="q4score(4,false)" style="background-color:#3a1010; border:1px solid #c0392b; border-radius:6px; padding:6px 14px; color:#e74c3c; font-size:12px; font-weight:700; cursor:pointer;">✗ No</button>
+        </div>
+      </div>
+      <div id="q4r4" style="display:none; margin-top:16px; background-color:#0f1e2e; border-left:4px solid #8b2fc9; border-radius:0 8px 8px 0; padding:14px 18px;">
+        <p style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#a06de0; margin:0 0 6px 0;">✅ Respuesta correcta</p>
+        <p style="font-size:14px; color:#c8b8f0; margin:0; line-height:1.7;"><strong style="color:#f0f0f0;">No es posible detenerse:</strong> a 90 km/h un camión cargado necesita entre 60 y 120 metros para detenerse. Con solo 50 metros disponibles, el choque es casi inevitable. <strong style="color:#f0f0f0;">Medida preventiva:</strong> aplicar la regla de los 4 segundos de distancia —que a 90 km/h equivale a más de 100 metros— y mantener la vista 12 segundos hacia adelante para anticipar frenadas.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PREGUNTA 5 ===== -->
+  <div style="margin-bottom:28px;">
+    <div style="background-color:#111f30; border:1px solid #1e3452; border-radius:10px; padding:24px 28px;">
+      <p style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#a06de0; margin:0 0 10px 0;">Pregunta 5 de 6</p>
+      <p style="font-size:16px; color:#f0f0f0; margin:0 0 16px 0; line-height:1.6;">¿Por qué está <strong style="color:#e74c3c;">prohibido absolutamente</strong> bajar una pendiente con el motor en punto muerto o con el embrague pisado? Explica el riesgo técnico.</p>
+      <textarea id="q4a5" placeholder="Escribe tu respuesta aquí..." style="width:100%; background-color:#0d1b2a; border:1px solid #2c4260; border-radius:8px; padding:12px 14px; color:#e8e8e8; font-size:14px; font-family:Arial,sans-serif; line-height:1.6; resize:vertical; min-height:80px; box-sizing:border-box;"></textarea>
+      <div style="margin-top:12px; display:flex; gap:10px; align-items:center;">
+        <button onclick="q4reveal(5)" id="q4btn5" style="background-color:#8b2fc9; border:none; border-radius:8px; padding:10px 22px; color:#fff; font-size:13px; font-weight:700; cursor:pointer;">Ver respuesta correcta</button>
+        <div id="q4self5" style="display:none; gap:8px;">
+          <span style="font-size:12px; color:#7a9ab5;">¿Acertaste?</span>
+          <button onclick="q4score(5,true)" style="background-color:#0d3322; border:1px solid #27ae60; border-radius:6px; padding:6px 14px; color:#2ecc71; font-size:12px; font-weight:700; cursor:pointer;">✓ Sí</button>
+          <button onclick="q4score(5,false)" style="background-color:#3a1010; border:1px solid #c0392b; border-radius:6px; padding:6px 14px; color:#e74c3c; font-size:12px; font-weight:700; cursor:pointer;">✗ No</button>
+        </div>
+      </div>
+      <div id="q4r5" style="display:none; margin-top:16px; background-color:#0f1e2e; border-left:4px solid #8b2fc9; border-radius:0 8px 8px 0; padding:14px 18px;">
+        <p style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#a06de0; margin:0 0 6px 0;">✅ Respuesta correcta</p>
+        <p style="font-size:14px; color:#c8b8f0; margin:0; line-height:1.7;">Al bajar con punto muerto o embrague pisado, el vehículo <strong style="color:#f0f0f0;">pierde el freno motor</strong> y depende únicamente de los frenos de servicio. En un descenso largo, estos frenos se <strong style="color:#f0f0f0;">sobrecalientan rápidamente (fading)</strong>, pierden eficiencia y puede producirse una falla total de frenos. Esta práctica está prohibida y puede causar accidentes fatales.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PREGUNTA 6 ===== -->
+  <div style="margin-bottom:32px;">
+    <div style="background-color:#111f30; border:1px solid #1e3452; border-radius:10px; padding:24px 28px;">
+      <p style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#a06de0; margin:0 0 10px 0;">Pregunta 6 de 6</p>
+      <p style="font-size:16px; color:#f0f0f0; margin:0 0 16px 0; line-height:1.6;">Menciona <strong style="color:#e88c30;">5 principios fundamentales</strong> de la conducción defensiva aplicados a vehículos pesados.</p>
+      <textarea id="q4a6" placeholder="Escribe los 5 principios aquí..." style="width:100%; background-color:#0d1b2a; border:1px solid #2c4260; border-radius:8px; padding:12px 14px; color:#e8e8e8; font-size:14px; font-family:Arial,sans-serif; line-height:1.6; resize:vertical; min-height:100px; box-sizing:border-box;"></textarea>
+      <div style="margin-top:12px; display:flex; gap:10px; align-items:center;">
+        <button onclick="q4reveal(6)" id="q4btn6" style="background-color:#8b2fc9; border:none; border-radius:8px; padding:10px 22px; color:#fff; font-size:13px; font-weight:700; cursor:pointer;">Ver respuesta correcta</button>
+        <div id="q4self6" style="display:none; gap:8px;">
+          <span style="font-size:12px; color:#7a9ab5;">¿Acertaste?</span>
+          <button onclick="q4score(6,true)" style="background-color:#0d3322; border:1px solid #27ae60; border-radius:6px; padding:6px 14px; color:#2ecc71; font-size:12px; font-weight:700; cursor:pointer;">✓ Sí</button>
+          <button onclick="q4score(6,false)" style="background-color:#3a1010; border:1px solid #c0392b; border-radius:6px; padding:6px 14px; color:#e74c3c; font-size:12px; font-weight:700; cursor:pointer;">✗ No</button>
+        </div>
+      </div>
+      <div id="q4r6" style="display:none; margin-top:16px; background-color:#0f1e2e; border-left:4px solid #8b2fc9; border-radius:0 8px 8px 0; padding:14px 18px;">
+        <p style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#a06de0; margin:0 0 6px 0;">✅ Respuesta correcta</p>
+        <p style="font-size:14px; color:#c8b8f0; margin:0; line-height:1.8;">1. <strong style="color:#f0f0f0;">Ver con anticipación:</strong> mantener la vista al menos 12 segundos hacia adelante. &nbsp;2. <strong style="color:#f0f0f0;">Dejar espacio:</strong> conservar distancias de seguridad amplias en todos los sentidos. &nbsp;3. <strong style="color:#f0f0f0;">Hacerse ver:</strong> usar luces, direccionales y bocina con oportunidad. &nbsp;4. <strong style="color:#f0f0f0;">Prever lo inesperado:</strong> asumir que otros conductores pueden cometer errores. &nbsp;5. <strong style="color:#f0f0f0;">Controlar la velocidad:</strong> adaptarla a las condiciones reales de la vía, no solo al límite señalado.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resultado final -->
+  <div id="q4result" style="display:none; background-color:#111f30; border:2px solid #8b2fc9; border-radius:12px; padding:28px; text-align:center;">
+    <p style="font-size:14px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#a06de0; margin:0 0 8px 0;">Resultado Final — Autoevaluación</p>
+    <p id="q4score" style="font-family:Georgia,serif; font-size:40px; font-weight:700; color:#f0f0f0; margin:0 0 8px 0;"></p>
+    <p id="q4msg" style="font-size:15px; color:#8fafc8; margin:0 0 20px 0;"></p>
+    <button onclick="q4reset()" style="background-color:#8b2fc9; border:none; border-radius:8px; padding:12px 32px; color:#ffffff; font-size:14px; font-weight:700; cursor:pointer;">↺ Intentar de nuevo</button>
+  </div>
+
+</div>
+<script>
+(function(){
+  var q4sc=0, q4rev={}, q4sel={};
+  window.q4reveal=function(q){
+    if(q4rev[q]) return;
+    q4rev[q]=true;
+    document.getElementById('q4r'+q).style.display='block';
+    document.getElementById('q4btn'+q).style.display='none';
+    var sd=document.getElementById('q4self'+q);
+    sd.style.display='flex';
+    var pct=(Object.keys(q4rev).length/6)*100;
+    document.getElementById('q4progress').style.width=pct+'%';
+  };
+  window.q4score=function(q,ok){
+    if(q4sel[q]!==undefined) return;
+    q4sel[q]=ok;
+    if(ok) q4sc++;
+    var sd=document.getElementById('q4self'+q);
+    sd.querySelectorAll('button').forEach(function(b){b.style.cursor='default'; b.style.opacity='0.5';});
+    if(Object.keys(q4sel).length===6){
+      setTimeout(function(){
+        document.getElementById('q4result').style.display='block';
+        document.getElementById('q4score').textContent=q4sc+' / 6';
+        var p=(q4sc/6)*100;
+        document.getElementById('q4msg').textContent=p===100?'🏆 ¡Excelente dominio de la conducción defensiva!':p>=67?'👍 Buen resultado. Repasa las respuestas donde fallaste.':'📖 Estudia la Unidad 4 con atención a distancias, puntos ciegos y maniobras.';
+      },600);
+    }
+  };
+  window.q4reset=function(){
+    q4sc=0; q4rev={}; q4sel={};
+    document.getElementById('q4progress').style.width='0%';
+    document.getElementById('q4result').style.display='none';
+    for(var q=1;q<=6;q++){
+      var r=document.getElementById('q4r'+q); if(r) r.style.display='none';
+      var b=document.getElementById('q4btn'+q); if(b) b.style.display='inline-block';
+      var sd=document.getElementById('q4self'+q); if(sd){ sd.style.display='none'; sd.querySelectorAll('button').forEach(function(bt){bt.style.cursor='pointer'; bt.style.opacity='1';});}
+      var ta=document.getElementById('q4a'+q); if(ta) ta.value='';
+    }
+  };
+})();
+</script>
